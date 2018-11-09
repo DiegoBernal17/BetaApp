@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "BETA",
+    "description": "A very interesting bus project.",
+    "slug": "busApp",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": ["android"],
+    "version": "0.6.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.latarea.busApp",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION"
+        ],
+      "versionCode": 22
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#ffffff"
+    }
+  }
+}
